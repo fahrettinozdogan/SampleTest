@@ -1,0 +1,214 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-24T08:20:41.463Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2132685000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User checks login functionality with valid credentionals",
+        "description": "",
+        "id": "testing-login-functionality;user-checks-login-functionality-with-valid-credentionals;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 83793000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 397926000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "steps.LoginSteps.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4207580000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Fahri and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fahri",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.LoginSteps.userEntersUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2061413000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "steps.LoginSteps.userClicksOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2046201000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is navigated to the homepage",
+            "match": {
+              "location": "steps.LoginSteps.userIsNavigatedToTheHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-24T08:20:52.468Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1087984000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User checks login functionality with valid credentionals",
+        "description": "",
+        "id": "testing-login-functionality;user-checks-login-functionality-with-valid-credentionals;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 80703000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.teardown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 429904000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on login page",
+            "match": {
+              "location": "steps.LoginSteps.userIsOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4151906000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters Hakan and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hakan",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.LoginSteps.userEntersUsernameAndPassword(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2060740000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "steps.LoginSteps.userClicksOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2028348000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is navigated to the homepage",
+            "match": {
+              "location": "steps.LoginSteps.userIsNavigatedToTheHomepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Testing login functionality",
+    "description": "",
+    "id": "testing-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
